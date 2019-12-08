@@ -1,0 +1,51 @@
+/*
+	zero:	Stand
+	one:	Hit
+	two:	Double Down -> Stand
+	three:	Double Down -> Hit
+	four:	Surrender -> Stand
+	five:	Surrender -> Hit
+	six:	Split
+*/
+
+T, T, F, F, S, S, E, N, T, A
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1	//Hard Five			zero
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1	//Hard Six			one
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1	//Hard Seven		two
+1, 1, 1, 3, 3, 1, 1, 1, 1, 1	//Hard Eight		three
+3, 3, 3, 3, 3, 3, 1, 1, 1, 1	//Hard Nine
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3	//Hard Ten
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3	//Hard Eleven
+0, 0, 0, 0, 0, 1, 1, 1, 1, 1	//Hard Twelve
+0, 0, 0, 0, 0, 1, 1, 1, 1, 1	//Hard Thirteen
+0, 0, 0, 0, 0, 1, 1, 1, 1, 1	//Hard Fourteen
+0, 0, 0, 0, 0, 1, 1, 1, 4, 1	//Hard Fifteen
+0, 0, 0, 0, 0, 1, 1, 5, 4, 5	//Hard Sixtenn
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Hard Seventeen
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Hard Eighteen
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Hard Nineteen
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Hard Twenty
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Hard Twenty-one	sixteen
+
+T, T, F, F, S, S, E, N, T, A
+1, 1, 1, 3, 3, 1, 1, 1, 1, 1	//Soft Two			seventeen
+1, 1, 1, 3, 3, 1, 1, 1, 1, 1	//Soft Three
+1, 1, 3, 3, 3, 1, 1, 1, 1, 1	//Soft Four
+1, 1, 3, 3, 3, 1, 1, 1, 1, 1	//Soft Five
+1, 3, 3, 3, 3, 1, 1, 1, 1, 1	//Soft Six
+0, 2, 2, 2, 2, 0, 0, 1, 1, 1	//Soft Seven
+0, 0, 0, 2, 2, 0, 0, 0, 0, 0	//Soft Eight
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Soft Nine
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Soft Ten			twenty-five
+
+T, T, F, F, S, S, E, N, T, A
+6, 6, 6, 6, 6, 6, 6, 6, 6, 6	//Ace-Ace			twenty-six
+6, 6, 6, 6, 6, 6, 1, 1, 1, 1	//Two-Two
+6, 6, 6, 6, 6, 6, 1, 1, 1, 1	//Three-Three
+1, 1, 1, 6, 6, 1, 1, 1, 1, 1	//Four-Four
+3, 3, 3, 3, 3, 3, 3, 3, 1, 1	//Five-Five
+6, 6, 6, 6, 6, 1, 1, 1, 1, 1	//Six-Six
+6, 6, 6, 6, 6, 6, 1, 1, 1, 1	//Seven-Seven
+6, 6, 6, 6, 6, 6, 6, 6, 6, 6	//Eight-Eight
+6, 6, 6, 6, 6, 0, 6, 6, 0, 0	//Nine-Nine
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0	//Ten-Ten			thirty-five
